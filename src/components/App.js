@@ -1,13 +1,15 @@
 import React from 'react'
 import Header from '../components/Header'
-import Income from '../components/Income'
+//import Form from '../components/Form'
+import List from '../components/List'
+
 import '../css/App.css'
 
 function App() {
   return (
     <div className="App">
-    <Header title = "INCOME"/>
-    <Income />
+    <Header title = "รายรับ-รายจ่าย"/>
+    <List />
     </div>
   );
 }
